@@ -38,7 +38,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		"https://github.com/Victory-web3/4/blob/main/13b466e04a46db470b56b80f07f72a92.webm";
+		"https://raw.githubusercontent.com/Victory-web3/4/main/13b466e04a46db470b56b80f07f72a92.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/Victory-web3/4/blob/main/hansaplatz_2k.hdr",
+	"https://raw.githubusercontent.com/Victory-web3/4/refs/heads/main/hansaplatz_2k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
